@@ -1,0 +1,162 @@
+* {
+    outline: solid 1px black;
+
+}
+
+/*GENERALES*/
+
+.animado,
+a {
+    -ms-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.clear {
+    clear: both;
+}
+
+/* resets */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+--main-bg-height:100vh;
+--main-bg-padding:15px;
+--main-bg-margin:15px;
+--main-bg-color: white;
+--main-bg-negro:black;
+--main-bg-tamano:2.5vh;
+
+}
+
+div,
+section, body, html, #heroscreen, .heroscreen_background img {
+    background:var(--main-bg-height);
+    margin: var(main/bg/margin);
+
+}
+
+h1,h2,h3,h4,h5,h6, .heroscreen_text h1{
+padding: var(--main-bg-padding);
+margin:  var(--main-bg-margin);
+color: var(--main-bg-color);
+}
+
+
+/* heroscreen */
+
+#heroscreen {
+    position: relative;
+}
+
+.heroscreen_background img {
+    width: 100%;
+    background: black;
+    opacity: .70;
+
+}
+
+.heroscreen_text {
+    left: 0;
+    z-index: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heroscreen_text h1 {
+    font-size: 3em;
+    text-align: right;
+    }
+
+.info{
+    color:var(--main-bg-negro);
+    font-size: var(--main-bg-tamano);
+    padding: var(--main-bg-padding);
+    margin:  var(--main-bg-margin);
+    }
+.info_blanco{
+        color:var(--main-bg-color);
+        font-size: var(--main-bg-tamano);
+        padding: var(--main-bg-padding);
+        margin:  var(--main-bg-margin);
+        }
+
+.oskar {
+            position: relative;
+            max-width: 800px; /* Maximum width */
+            margin: 0 auto; /* Center it */
+          }
+          
+.oskar .content {
+            position: absolute; /* Position the background text */
+            bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+            background: rgb(0, 0, 0); /* Fallback color */
+            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+            color: #f1f1f1; /* Grey text */
+            width: 100%; /* Full width */
+            padding: 20px; /* Some padding */
+          }
+
+          #vacio{
+              height: 50px;
+          }
+
+
+a.ambar:hover{
+    background: yellow;
+    color:black;
+}
+
+a.pink:hover{
+    background:pink;
+    color:black;
+}
+
+a.black:hover{
+    background:gray;
+    color:white;
+}
+
+a.gray:hover{
+    background: rgb(167, 167, 167);
+    color:white;
+}
+/* .btn{
+    background: black;
+    color:white;
+}
+
+.btn:hover{
+    background: white;
+    color:black;
+} */
+
+/* footer */
+footer {
+    height: 300px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.social {
+    font-size: 2em;
+
+}
+
+.social ul {
+    padding: 0;
+    margin: 0;
+
+}
+

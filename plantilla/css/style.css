@@ -1,0 +1,88 @@
+* {
+    outline: solid 1px black;
+
+}
+
+/*GENERALES*/
+
+.animado,
+a {
+    -ms-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.clear {
+    clear: both;
+}
+
+/* resets */
+
+/* PROPIEDADES */
+
+:root {
+--first-color: rgb(217,0, 98);
+--first-modal-color:rgba(217,0, 98, .75);
+--second-color: rgb(20, 25, 46);
+--second-modal-color:rgba(20, 25, 45, .75);
+--third-color: rgb(80, 20, 100);
+--third-modal-color:rgba(80, 20, 100, .75);
+--link-color: --second-color: rgb(20, 25, 46);
+--second-modal-color:rgb(80, 150, 227);
+--img-tamano-menu: 56px;
+
+
+}
+
+/* RESETS STYLES */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    color: var(--second-modal-color);
+    transition: all .4S ease-in-out;
+}
+
+.bg-dark, .bg-light{
+    background-color: var(--second-color) !important;
+}
+
+/* BOTRSTRAPP STYLES */
+
+.navbar-brand img{
+
+width: auto;
+height: var(--img-tamano-menu);
+}
+/* MY STYLES */
+
+.font-i20{
+font-size: 120%;
+
+}
+.font-150{
+    font-size: 150%;
+    
+    }
+
+
+/* MEDIA JQUERIES */
+/* SMALL */
+@media (min-widht: 576px) {
+   
+}
+/* MEDIUM */
+@media (min-widht: 768px) {
+   
+}
+/* LARGE */
+@media (min-widht: 992px) {
+   
+}
+/* EXTRA LARGE */
+@media (min-widht: 1200px) {
+   
+}

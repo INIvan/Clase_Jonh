@@ -19,3 +19,14 @@
           <?php get_service_cards( SITE['service_cards'] ); ?>
         </div>
 </div>
+    
+    
+    <section>
+      <div class="container">
+        <h4 class="text-dark">Bibliografía</h4>
+        Loremp Imsump<br>
+        Lorem Imsump
+       
+      
+      </div>
+    </section>

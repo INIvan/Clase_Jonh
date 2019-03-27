@@ -9,7 +9,9 @@
 
   <div class="col info">
   <h1 class="info text-center"> Escenario Negro</h1>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
+La danza triádica lo componía por tres bailarines, dos hombres y una mujer.
+    Cada uno debían alternarse según cada movimiento que lo componían sus vestimentas.
+    Una anti-danza dado por la vista del pintor y escultor. 
   </div>
 </section>
 

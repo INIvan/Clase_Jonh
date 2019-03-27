@@ -9,7 +9,10 @@
 
   <div class="col info">
   <h1 class="info text-center"> Escenario Rosa</h1>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
+Además, dentro de la escena cúbica los danzantes se ensalza de movimientos libres
+    a cada uno de los sentimientos y sensaciones de cada actor. Pero, su bajo rigurosidad
+     del aspecto espacial. El lenguaje corporal suma como la adaptación dentro del
+    esecnario. Sin la necesidad de los gestos. 
   </div>
 </section>
 
@@ -18,10 +21,10 @@
 <div class="container">
   <div class="row">
     <div class="imagen col-sm-6 heroscreen_background imgLiquidNoFillLeft">
-    <img src="img/rosa.jpg" alt="Imagen3"> 
+    <img src="img/rosa.jpg" alt="Danzantes rosas 1"> 
     </div>
     <div class="imagen col-sm-6 heroscreen_background imgLiquidNoFillLeft">
-    <img src="img/rosa.jpg" alt="Imagen3">
+    <img src="img/rosa.jpg" alt="Danzanates rosas 2">
     </div>
   </div>
 </section>
